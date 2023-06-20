@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplep Page</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">Naul</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">Grid one</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Descubra sobre mim</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quod similique, blanditiis eos voluptatibus accusamus optio suscipit tempora odit ea ad corrupti placeat quaerat exercitationem officiis, dicta, esse quos. Quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quidem incidunt aliquid maiores ex voluptatum sint cum corporis soluta adipisci officia aut voluptate omnis cupiditate, facere voluptas at fuga doloribus.</p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/img/undraw_static_assets_rpm6.svg" alt="Logo, html, css, js">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2> Top 3 Jobs</h2>
+            <p>Desenvolvimento web front-end é o desenvolvimento da interface gráfica do usuário de um site, através do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com esse site.</p>
+            <p>Como o nome sugere, o desenvolvedor back-end trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. Em uma aplicação web, este desenvolvedor, quando focado, não toca na parte visual da aplicação.Como o nome sugere, o desenvolvedor back-end trabalha na parte de “trás” da aplicação. Ele é o responsável, em termos gerais, pela implementação da regra de negócio. Em uma aplicação web, este desenvolvedor, quando focado, não toca na parte visual da aplicação.</p>
+            <p>Full stack development is the end-to-end development of applications. It includes both the front end and back end of an application.</p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="grid main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">My Grid</h2>
+            <p class="grid-descricao">Descrição</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Teste</h3>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptates in neque ex molestias veniam repellendus? Quod quaerat cupiditate voluptate explicabo, ducimus consectetur libero culpa. Doloremque nobis natus veniam provident.</p>
+                </article>
+                <article>
+                    <h3>teste</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi atque ex consequuntur eos consequatur facilis, labore vitae voluptates vel? Accusamus corporis ea accusantium officiis maxime praesentium dolores sapiente suscipit eum!</p>
+                </article>
+                <article>
+                    <h3>Teste</h3>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptates in neque ex molestias veniam repellendus? Quod quaerat cupiditate voluptate explicabo, ducimus consectetur libero culpa. Doloremque nobis natus veniam provident.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-descricao">Descrição</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="/assets/img/fotos-programa1.png" alt="foto de programação1">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/foto-programa2.jpg" alt="foto-programação2">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/foto-programa3.jpg" alt=" foto-programação3">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/foto-programa4.jpg" alt="foto-programação4">
+                </div>
+                <div class="gallery-img">
+                    <img src="/assets/img/foto-programa5.jpg" alt="foto-programação5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Entre em contato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quod similique, blanditiis eos voluptatibus accusamus optio suscipit tempora odit ea ad corrupti placeat quaerat exercitationem officiis, dicta, esse quos. Quo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quidem incidunt aliquid maiores ex voluptatum sint cum corporis soluta adipisci officia aut voluptate omnis cupiditate, facere voluptas at fuga doloribus.</p>
+            </div>
+            <div class="Contact-img">
+                <img src="/assets/img/undraw_contact_us_re_4qqt.svg" alt="imagem de contato, cell, email">
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend> Contact me</legend>
+
+                <div class="form-group">
+                    <label for="First-name">First name</label>
+                    <input type="text" name="First-name" id="First-name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="Last-name">Last name</label>
+                    <input type="text" name="Last-name" id="Last-name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="Last-name">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your e-mail">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                </div>
+                <div class="form-group full-width">
+                    <button type="submit">Send message</button>
+                </div>
+            </fieldset>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p>Feito por Naul ❤</p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+
+</html>
